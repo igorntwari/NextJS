@@ -47,7 +47,7 @@ export default function LogInPage() {
           </div>
           <span className="underline text-[#FFDBA0] ">Forgot your password?</span>
           <p className="text-[#FFDBA0] flex gap-2">
-            <span>Don&apos;t have an account??</span>
+            <span>Don&apos;t have an account?</span>
             <span className=" underline">Sign Up</span>
           </p>
         </div>
