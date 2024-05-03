@@ -7,7 +7,7 @@ function page() {
     <div className="bg-[#707356] gap-10 p-10">
       <div className="flex flex-col gap-10 items-start">
         <h1 className="text-[#FFD186] font-Roger-main text-6xl">
-          Featured Products
+          Featured Products 
         </h1>
         <span className="flex justify-start w-1/2 ">
           Discover an extensive selection of top-notch products that are sure to

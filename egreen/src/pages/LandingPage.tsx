@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import LandingPicture from "../assets/pictures/LandingPicture.jpg";
 import Logo from "@/assets/Icons/Logo";
 import DropDown from "@/assets/Icons/DropDown";
@@ -31,9 +32,11 @@ export default function LandingPage() {
         </div>
         <div className="flex gap-6 items-center">
           <Shoping />
-          <button className="bg-[#FFDBA0] py-2 px-4 rounded-3xl font-Manrope-semiBold text-black">
-            Find a house
-          </button>
+          <Link href="/products">
+            <button className="bg-[#FFDBA0] py-2 px-4 rounded-3xl font-Manrope-semiBold text-black">
+              Find a house
+            </button>
+          </Link>
         </div>
       </div>
 
