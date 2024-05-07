@@ -34,9 +34,11 @@ export default function MenuDrop() {
               </button>
             </Menu.Item>
             <Menu.Item>
-              <button className="px-2 py-2 text-sm border-b-2 border-black w-full">
-                Log out
-              </button>
+              <Link href="/login">
+                <button className="px-2 py-2 text-sm border-b-2 border-black w-full">
+                  Log out
+                </button>
+              </Link>
             </Menu.Item>
             <Menu.Item>
               <Link href="/Gallery">

@@ -47,7 +47,7 @@ export default function SignUpPage() {
           </div>
           <p className="text-[#FFDBA0] flex gap-2">
           <span>Already have an account?</span>
-          <span className=" underline">Login</span>
+          <span className=" underline cursor-pointer">Login</span>
           </p>
         </div>
       </div>

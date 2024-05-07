@@ -4,6 +4,7 @@ import Image from "next/image";
 import Google from "../../assets/Icons/Google";
 import Facebook from "@/assets/Icons/Facebook";
 import Apple from "@/assets/Icons/Apple";
+import Link from "next/link";
 
 export default function LogInPage() {
   return (
@@ -45,10 +46,14 @@ export default function LogInPage() {
               LogIn with Google
             </button>
           </div>
-          <span className="underline text-[#FFDBA0] ">Forgot your password?</span>
+          <span className="underline text-[#FFDBA0] ">
+            Forgot your password?
+          </span>
           <p className="text-[#FFDBA0] flex gap-2">
             <span>Don&apos;t have an account?</span>
-            <span className=" underline">Sign Up</span>
+            <Link href="/signup">
+              <span className=" underline cursor-pointer">Sign Up</span>
+            </Link>
           </p>
         </div>
       </div>
