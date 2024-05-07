@@ -9,6 +9,7 @@ import Shoping from "@/assets/Icons/Shoping";
 import SmallLandingPicture from "../assets/pictures/SmallLandingPicture.jpg";
 import Navigate from "@/assets/Icons/Navigate";
 import Search from "@/assets/Icons/Search";
+import MenuDrop from "@/Modals/MenuPop";
 export default function LandingPage() {
   const [where, setWhere] = useState("");
   const [checkIn, setCheckIn] = useState("");
@@ -38,12 +39,12 @@ export default function LandingPage() {
           <Logo />
         </span>
 
-        <div className="font-Manrope-Regular flex gap-6">
+        <div className="font-Manrope-Regular items-center flex gap-6">
           <span>Rentals</span>
           <span>Buy</span>
           <span>Sell</span>
           <p className="flex items-center">
-            <span>More</span>
+            <MenuDrop />
             <DropDown />
           </p>
         </div>
