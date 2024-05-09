@@ -4,6 +4,8 @@ import Image from "next/image";
 import Google from "../../assets/Icons/Google";
 import Facebook from "@/assets/Icons/Facebook";
 import Apple from "@/assets/Icons/Apple";
+import Link from "next/link";
+
 
 export default function SignUpPage() {
   return (
@@ -46,8 +48,10 @@ export default function SignUpPage() {
             </button>
           </div>
           <p className="text-[#FFDBA0] flex gap-2">
-          <span>Already have an account?</span>
-          <span className=" underline cursor-pointer">Login</span>
+            <span>Already have an account?</span>
+            <Link href="/login">
+              <span className=" underline cursor-pointer">Login</span>
+            </Link>
           </p>
         </div>
       </div>

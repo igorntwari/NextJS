@@ -28,9 +28,11 @@ export default function LogInPage() {
             id=""
             placeholder="Password"
           />
+           <Link href="/">  
           <button className="bg-[#FFDBA0] py-2 px-40 rounded-2xl text-black font-Manrope-semiBold">
             LogIn
           </button>
+          </Link>
           <hr className="h-[1px] bg-[#FFD186] w-full" />
           <div className="text-[#FFDBA0] flex flex-col gap-8">
             <button className="bg-transparent py-2 px-24 rounded-2xl border-[1px] border-[#FFDBA0] font-Manrope-semiBold flex gap-4">
