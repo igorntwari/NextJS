@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LandingPicture from "../assets/pictures/LandingPicture.jpg";
 import Logo from "@/assets/Icons/Logo";
-import DropDown from "@/assets/Icons/DropDown";
+
 import Shoping from "@/assets/Icons/Shoping";
 import SmallLandingPicture from "../assets/pictures/SmallLandingPicture.jpg";
 import Navigate from "@/assets/Icons/Navigate";
@@ -45,7 +45,6 @@ export default function LandingPage() {
           <span>Sell</span>
           <p className="flex items-center">
             <MenuDrop />
-            <DropDown />
           </p>
         </div>
         <div className="flex gap-6 items-center">
