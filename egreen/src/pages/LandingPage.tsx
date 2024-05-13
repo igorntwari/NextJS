@@ -38,7 +38,6 @@ export default function LandingPage() {
         <span>
           <Logo />
         </span>
-
         <div className="font-Manrope-Regular items-center flex gap-6 cursor-pointer">
           <span>Rentals</span>
           <span>Buy</span>
