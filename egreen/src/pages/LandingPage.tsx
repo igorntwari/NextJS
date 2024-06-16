@@ -4,6 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import LandingPicture from "../assets/pictures/LandingPicture.jpg";
 import Logo from "@/assets/Icons/Logo";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
+
 
 import Shoping from "@/assets/Icons/Shoping";
 import SmallLandingPicture from "../assets/pictures/SmallLandingPicture.jpg";
